@@ -1,0 +1,535 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital@0;1&display=swap');
+body{
+	color:#3E3E3D;
+	font-family: 'Cuprum', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	cursor: crosshair;
+}
+/*--------------------------------------------------*/
+
+.menu a{
+	text-decoration: none;
+	color:#3E3E3D;
+	padding-left: 36px;
+	font-size: 20px;
+}
+.logo a{
+	font-size:20px;
+	text-decoration: none;
+	color:#3E3E3D;
+}
+.logo a:hover{
+	color:sandybrown;
+}
+.menu a:hover{
+	color:sandybrown;
+}
+.avt img{
+	width:80%;
+}
+.name{
+	font-size: 90px;
+}
+.career{
+	font-size:30px;
+	letter-spacing: 10px
+}
+.section-1{
+	height:100vh;
+}
+
+/*section-1----------------------------------------------*/
+
+.section-2{
+	height: 110vh;
+	background: #E4E4E5;
+}
+.headline-portfolio{
+	font-size: 100px;
+	text-align: center;
+	padding: 75px 0 20px 0;
+}
+.box-1{
+	width:100%;
+	height: 260px;
+	background: #C9BFB3;
+	position:relative;
+	overflow: hidden;
+}
+.box-1 img{
+	position: absolute;
+	width: 130%;
+	right: -30%;
+	bottom: 8%;	
+}
+.stt-1{
+	font-size: 70px;
+	color: #C9BFB3;
+}
+.box-2{
+	width:100%;
+	height: 260px;
+	background: #C4B090;
+	position: relative;
+	overflow: hidden;
+}
+.box-2 .img-1{
+	position:absolute;
+	width:80%;
+	left:0;
+	bottom:0;
+}
+.box-2 .img-2{
+	position:absolute;
+	width:50%;
+	right:-20px;
+	bottom:8px;
+}
+.stt-2{
+	font-size: 70px;
+	color: #C4B090;
+}
+.box-3{
+	width:100%;
+	height: 260px;
+	background: #AF9D8D;
+	position: relative;
+	overflow: hidden;
+}
+.box-3 img{
+	position:absolute;
+	width:85%;
+	right:-20%;
+	bottom:0;
+}
+.stt-3{
+	font-size: 70px;
+	color: #AF9D8D;
+}
+.box-4{
+	width:100%;
+	height: 260px;
+	background: #887976;
+	position: relative;
+	overflow: hidden;
+}
+.box-4 img{
+	position:absolute;
+	width:110%;
+	right:-25%;
+	bottom:5%;
+}
+.stt-4{
+	font-size: 70px;
+	color: #887976;
+}
+.box-5{
+	width:100%;
+	height: 260px;
+	background: #60554E;
+	position: relative;
+	overflow: hidden;
+}
+.box-5 img{
+	position:absolute;
+	width:160%;
+	right:-60%;
+	bottom:2%;
+}
+.stt-5{
+	font-size: 70px;
+	color: #60554E;
+}
+.box-6{
+	width:100%;
+	height: 260px;
+	background: #C2AB9A;
+	position: relative;
+	overflow: hidden;
+}
+.box-6 img{
+	position:absolute;
+	width:130%;
+	right:-30%;
+	bottom:2%;
+}
+.stt-6{
+	font-size: 70px;
+	color: #C2AB9A;
+}
+
+.headline{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.section-2 a{
+	text-decoration: none;
+	color: #3E3E3D;
+}
+.section-2 a:hover{
+	color:sandybrown;
+	font-size: 24px;
+}
+
+/*section-2---------------------------------------*/
+
+.section-3{
+	height: 100vh;
+	background: #C8BEB2;
+	position: relative;
+	overflow: hidden;
+}
+.hinhanh-0 img{
+	position: absolute;
+	right: 0%;
+	bottom:1%;
+	width: 52%;
+}
+.bigheadline-1{
+	color: #E6E1DC;
+	padding: 12% 0 38% 0; 
+}
+.bigheadline-1 h1{
+	font-size: 100px;
+}
+.bigheadline-1 h3{
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+
+.nb{
+	font-size: 200px;
+	color: #E6E1DC;
+}
+.cumtu{
+	color: #E6E1DC;
+}
+.cumtu a{
+	font-size: 28px;
+	text-decoration: none;
+	color: #E6E1DC;
+}
+.cumtu a:hover{
+	color:#3E3E3D;
+}
+
+/*section-3-------------------------------------------*/
+
+.section-3cham1{
+	height: 100vh;
+	background: #E4E4E5;
+	position: relative;
+	overflow: hidden;
+}
+.section-3cham1 .banner-2 img{
+	position:absolute;
+	width: 72%;
+	bottom: -1%;
+	left:-2%;
+}
+/*section-3cham1-----------------------------------------------------*/
+
+
+.section-3cham2{
+}
+.nen{
+	background: url("../img/z2506335603493_d718fd32ce67a89dd907e67fd5dea8ad.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	margin:5% 0;
+}
+/*section-3cham2-----------------------------------------------------*/
+
+.section-3cham3{
+	height: 100vh;
+	overflow: hidden; 
+}
+.section-3cham3 .container{
+	position: relative;
+}
+.section-3cham3 .banner-2 img{
+	position:absolute;
+	width: 82%;
+	z-index: -200;
+	top:12%;
+	right:0;
+}
+.section-3cham3 .content{
+	padding-bottom: 16px;
+	font-size: 40px;
+}
+.section-3cham3 .para-1{
+	padding-top: 14%;
+	font-size: 30px;
+	letter-spacing: 20px;
+}
+
+/*section-3cham3-----------------------------------------------------*/
+
+.section-4{
+	height: 100vh;
+	background: #C4B090;
+	position: relative;
+	overflow: hidden;
+}
+.padding{
+	padding-top: 10%;
+	padding-left: 2%;
+}
+.bigheadline-2{
+	font-size: 100px;
+	color: #E6E1DC;
+	padding-bottom: 8px; 
+}
+.hinhanh-1 img{
+	width: 28%;
+	position: absolute;
+	left: -8%;
+	bottom:2%;
+}
+.hinhanh-2 img{
+	width: 38%;
+	position: absolute;
+	left: 14%;
+	bottom:-2%;
+	
+}
+
+/*section-4-----------------------------------------------------*/
+
+.section-4cham1{
+	height: 100vh;
+	background: #E4E4E5;
+	position: relative;
+	overflow: hidden;
+}
+.section-4cham1 .banner-2 img{
+	position:absolute;
+	width: 40%;
+	bottom: 0;
+	right:10%;
+}
+/*section-4cham1-----------------------------------------------------*/
+
+.section-4cham2 .nen{
+	background: url("../img/mockuphop.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	margin:5% 0;
+}
+/*section-4cham2-----------------------------------------------------*/
+
+.section-4cham3{
+	height: 100vh;
+	overflow: hidden; 
+}
+.section-4cham3 .container{
+	position: relative;
+}
+.section-4cham3 .banner-2 img{
+	position:absolute;
+	width: 75%;
+	z-index: -200;
+	top:5%;
+	right:0;
+}
+.section-4cham3 .content{
+	padding-bottom: 16px;
+	font-size: 40px;
+}
+.section-4cham3 .para-1{
+	padding-top: 14%;
+	font-size: 30px;
+	letter-spacing: 20px;
+}
+
+/*section-4cham3-----------------------------------------------------*/
+
+
+
+.section-5{
+	height: 100vh;
+	background: #AF9D8D;
+	position: relative;
+}
+.section-5 .hinhanh-0{
+	position:absolute;
+	width: 45%;
+	bottom: 5%;
+	right: 15%;
+}
+
+/*section-5-----------------------------------------------------*/
+
+.section-5cham1 {
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.banner-1 img{
+	width: 110%;
+	position: absolute;
+	bottom: -4%;
+	left: -2%;
+	z-index: -10;
+}
+.content{
+	padding-bottom: 16px;
+	font-size: 32px
+}
+.para-1{
+	padding-top: 24%;
+	font-size: 20px;
+}
+/*section-5.1-----------------------------------------------------*/
+
+.section-6{
+	height: 100vh;
+	background: #887976;
+	position: relative;
+	overflow: hidden;
+}
+.section-6 .hinhanh-0{
+	position:absolute;
+	width: 130%;
+	bottom: 3%;
+	right: -8%;
+}
+/*section-6-------------------------------------*/
+.section-6cham1{
+	height: 100vh;
+	background: white;
+	position: relative;
+	overflow: hidden;
+}
+.section-6cham1 .banner-2 img{
+	position:absolute;
+	width: 63%;
+	bottom: 16%;
+	left:4%;
+}
+
+/*section-6cham1-------------------------------------*/
+
+.section-7{
+	height: 100vh;
+	background: #5F534D;
+	position: relative;
+	overflow: hidden;
+}
+.section-7 .hinhanh-0{
+	position:absolute;
+	width: 100%;
+	bottom: 10%;
+	right: -4%;
+}
+/*section-7-----------------------*/
+
+.section-7cham1{
+	height: 100vh;
+	background: white;
+	position: relative;
+	overflow: hidden;
+}
+.section-7cham1 .banner-2 img{
+	position:absolute;
+	width: 62%;
+	bottom: 8%;
+	left:0;
+}
+
+/*section-7cham1-------------------------------------*/
+
+
+.section-8{
+	height: 100vh;
+	background: #81786F;
+	position: relative;
+	overflow: hidden;
+}
+.section-8 .hinhanh-0{
+	position:absolute;
+	width: 80%;
+	bottom: 4%;
+	right: 2%;
+}
+/*section-8-----------------------*/
+
+.section-8cham1 .container{
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+}
+.section-8cham1 .banner-2 img{
+	position:absolute;
+	width: 40%;
+	bottom: 5%;
+	left:0%;
+}
+
+/*section-8.1-----------------------*/
+
+.footer{
+	height:100vh;
+	color:#3E3E3D;
+}
+.footer a{
+	color:#3E3E3D;
+	text-decoration: none;
+}
+.footer a:hover{
+	color:sandybrown;
+}
+.footer h1{
+	font-size: 100px;
+	padding: 12% 0;
+}
+.footer h2{
+	font-size: 40px;
+	padding: 20px 0;
+	border-bottom: 1px solid #3E3E3D;
+}
+.footer ion-icon{
+	font-size: 30px;
+}
+.backtotop a{
+	text-align: right;
+	position: fixed;
+	right: 2%;
+	bottom: 4%;
+	z-index: 1000;
+	font-size:35px;
+	color:#3E3E3D;
+	opacity: 30%;
+}
+.backtotop a:hover{
+	color: sandybrown;
+	opacity: 100%;
+}
+.followicon a{
+	text-decoration: none;
+	text-align: right;
+	font-size:30px;
+	color:#3E3E3D;
+	opacity: 30%;
+	padding: 4px 0;
+}
+.followicon{
+	position: fixed;
+	z-index: 30000;
+	right: 2%;
+	top:20%;
+}
+.followicon a:hover{
+	color: sandybrown;
+	opacity: 100%;
+	font-size:40px;
+}
